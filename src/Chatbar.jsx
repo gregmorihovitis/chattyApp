@@ -4,7 +4,8 @@ class Chatbar extends Component {
 
   handleInput = (e) => {
     if(e.key === 'Enter'){ 
-      this.props.addMessage(this.props.currentUser.name, e.target.value)
+      this.props.addMessage(this.props.currentUser.name, e.target.value
+        )
       e.target.value = '';
     } 
   }
