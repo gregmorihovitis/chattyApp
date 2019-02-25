@@ -7,7 +7,7 @@ Real-Time Chat App for a LHL Project
 
 Use the app to chat with others in real time with customized username
 
-Install the dependencies and start the server.
+Install the dependencies and start the server, starting in the project root folder.
 ```
 npm install
 npm start
